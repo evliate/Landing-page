@@ -1,7 +1,22 @@
 h1 {
   text-align: center;
 }
+body {
+  background-image: url(https://ih0.redbubble.net/image.120568851.4703/sticker,375x360-bg,ffffff.u3.png);
+}
 .conteneur { position: relative;
+  margin: auto;
+  background-color: #CACACA;
+  width: 600px;
+  height: 670px;
+  border-radius: 5px;
+  text-align: center;
+  border-bottom : 10px solid #636363;
+  border-top : 10px solid #D5D5D5;
+  border-left : 10px solid #BABABA;
+  border-right : 10px solid #8C8D8E;
+}
+.conteneur2 { position: relative;
   margin: auto;
   background-color: #CACACA;
   width: 600px;
@@ -79,5 +94,55 @@ h1 {
 @media screen and (max-width: 400px) {
   .conteneur {
     width: 320px;
+    height: 1070px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .putaclic {
+    display: block;
+  }
+}
+@media screen and (min-width: 400px) {
+  .texte {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .images {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .n2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  .conteneur {
+    width: 320px;
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .conteneur2 {
+    width: 320px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img1 {
+    border-style: solid;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    text-align: center;
+    color: white;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/66/8e/ef/668eeff50d54d35abfcfffef43bdb398.jpg);
   }
 }
